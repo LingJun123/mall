@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mateEase.mapper.OrderMapper">
+    <select id="queryAllOrderByName" parameterType="string" resultType="Order">
+        select * from `order` where user_name=#{user_name}
+    </select>
+    <select id="queryOrder" parameterType="Order" resultType="Order">
+        select * from `order` where user_name=#{user_name} and prod_id=#{prod_id}
+    </select>
+    <insert id="insertOrder" parameterType="Order">
+        insert into `order` (prod_id,user_name,order_count,price)
+         values (#{prod_id},#{user_name},#{order_count},#{price})
+    </insert>
+</mapper>
