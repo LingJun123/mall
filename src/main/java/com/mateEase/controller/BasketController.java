@@ -37,12 +37,13 @@ public class BasketController {
             tmpBasket tb = new tmpBasket();
             tb.setCount(basket.getBasket_count());
             tb.setBasket_id(basket.getBasket_id());
-            Product product = productService.queryProductByID(basket.getBasket_id());
+            Product product = productService.queryProductByID(basket.getProd_id());
             tb.setProd_name(product.getProd_name());
             tb.setPrice(product.getPrice());
             tb.setMoney(tb.getPrice()*tb.getCount());
             tmpBaskets.add(tb);
         }
+        System.out.println(tmpBaskets);
         model.addAttribute("tmpBaskets",tmpBaskets);
         return "/basket/list";
     }

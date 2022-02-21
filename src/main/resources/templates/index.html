@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<title>Signin Template for Bootstrap</title>
+		<title>登录</title>
 		<!-- Bootstrap core CSS -->
 		<link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
 		<!-- Custom styles for this template -->
@@ -15,7 +15,7 @@
 	<body class="text-center">
 	<script type="text/javascript" th:src="@{/js/md5.js}" ></script>
 	<form class="form-signin" th:action="@{/user/login}">
-			<img class="mb-4" th:src="@{/img/bootstrap-solid.svg}" alt="" width="72" height="72">
+<!--			<img class="mb-4" th:src="@{/img/bootstrap-solid.svg}" alt="" width="72" height="72">-->
 			<h1 class="h3 mb-3 font-weight-normal" th:text="#{login.tip}">Please sign in</h1>
 
 			<p style="color: red" th:text="${msg}" th:if="${not #strings.isEmpty(msg)}"></p>
@@ -26,7 +26,7 @@
 			<input type="password" name="password" class="form-control" th:placeholder="#{login.password}" required="">
 			<div class="checkbox mb-3">
 				<label>
-          <input type="checkbox" value="remember-me" th:text="#{login.remember}">
+<!--          <input type="checkbox" value="remember-me" th:text="#{login.remember}">-->
         </label>
 			</div>
 			<button class="btn btn-lg btn-primary btn-block" type="submit" th:text="#{login.btn}">Sign in</button>
