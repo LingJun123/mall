@@ -26,7 +26,7 @@
 ![1645530084(1)](https://user-images.githubusercontent.com/56064594/155125291-93ec2749-f067-4e54-9b73-2fc84029e7f8.png)
 
 ### 买家部分
-> 首页
+> 首页</br>
 > 全部商品:
 
 
@@ -37,7 +37,7 @@
 ![1645530539(1)](https://user-images.githubusercontent.com/56064594/155126466-1b6b3392-9c42-4b76-afc5-78bf207d521d.png)
 
 
-> 商品详情页
+> 商品详情页</br>
 > 已购买商品:
 
 ![1645530411(1)](https://user-images.githubusercontent.com/56064594/155126149-0fa03bf5-53e9-4444-859d-eb37f0a96f31.png)
@@ -60,15 +60,23 @@
 ### 卖家部分
 > 首页
 
+![1645530707(1)](https://user-images.githubusercontent.com/56064594/155126877-a039dd2c-0a37-4768-8430-9833277b4ed7.png)
+
 
 > 商品详情页
 
+![1645530731](https://user-images.githubusercontent.com/56064594/155126938-ed0b38b7-ed75-4f56-8431-85bb670c9781.png)
 
 
 > 商品修改页
 
+![1645530755(1)](https://user-images.githubusercontent.com/56064594/155126999-6ddf2ce1-3611-43f5-9886-64502bae252d.png)
+
 
 > 商品发布页
+
+![1645530779(1)](https://user-images.githubusercontent.com/56064594/155127040-7392c65f-78c9-4866-b865-448c2df35dd1.png)
+
 
 
 
