@@ -38,11 +38,11 @@
 
 
 > 商品详情页</br>
-> 已购买商品:
+> 已购买商品 不可重复购买
 
 ![1645530411(1)](https://user-images.githubusercontent.com/56064594/155126149-0fa03bf5-53e9-4444-859d-eb37f0a96f31.png)
 
-> 未购买商品：
+> 未购买商品 可以进行购买操作，购买会弹出提示框。
 
 ![1645530489(1)](https://user-images.githubusercontent.com/56064594/155126330-aeac47bb-0fde-412d-bf52-05182cb5ce57.png)
 
