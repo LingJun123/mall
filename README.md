@@ -14,3 +14,7 @@
 2. 点击商品详情，可以查看商品信息，及修改商品信息；
 3. 发布商品。
 </br>
+## 语言框架
+</br>编程语言：Java
+</br>后端：MySQL+Redis+SpringBoot
+</br>前端：Thymeleaf
