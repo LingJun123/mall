@@ -57,6 +57,7 @@ public class LoginController {
         User login = new User();
         login.setName(username);
         login.setPwd(password);
+        System.out.println(password);
         User user = userMapper.queryUser(login);
         if (user!=null) {
             session.setAttribute("loginUser",username);

@@ -4,6 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mateEase.mapper.UserMapper">
     <select id="queryUser" parameterType="User" resultType="User">
-        select * from user where name=#{name} and pwd=#{pwd}
+        select * from user where name=#{name} and pwd_md5=#{pwd}
     </select>
 </mapper>
