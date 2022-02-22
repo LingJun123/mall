@@ -15,7 +15,12 @@
 3. 发布商品。
 
 ## 语言框架
-
 1. 编程语言：Java
 2. 后端：MySQL+Redis+SpringBoot
 3. 前端：Thymeleaf
+
+## 系统示例
+### 买家部分
+
+### 卖家部分
+
